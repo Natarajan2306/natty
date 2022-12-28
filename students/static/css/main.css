@@ -1,0 +1,147 @@
+	body{
+		background-image: linear-gradient(to right, #474ab6 0% , #9271f6 100%);
+		position:sticky;
+		height: 10px;
+		
+		
+		
+		 }
+
+	#total-students{
+		background: linear-gradient(180deg,#474ab6 0%,#9271f6 100%);
+			height: 300px;
+			bottom: 80%;
+		}
+
+
+	#courses{
+		background: linear-gradient(180deg,#474ab6 0%,#9271f6 100%);
+			height: 300px;
+		}
+
+	
+
+		  
+
+	#new-data{
+		     background: linear-gradient(180deg,#474ab6 0%,#9271f6 100%);
+
+	    }
+
+	#new{
+			background-color: #7767e4;
+
+	   }
+
+	   table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	  }
+
+	  th, td {
+		padding-top: 30px;
+		padding-bottom: 50px;
+		padding-left: 10px;
+		padding-right: 30px;
+	  }
+	  table,
+        th,
+        td {
+            border: 2px solid rgb(6, 6, 6);
+            text-align: left;
+        }
+
+		td {
+			white-space: pre;
+			overflow: auto;
+			width: 20px;
+			height: 25px;
+		}
+
+		table {
+			width: 50%;
+		  }
+		  
+		  th {
+			height: 20px;
+		  }
+
+		  th, td {
+			font-size: 15px;
+		  }
+		  
+		  table {
+			border-collapse: collapse;
+			border-spacing: 10px 0;
+		  }
+		  
+		  
+		  table {
+			table-layout: fixed;
+			table-layout: scroll;
+			width: 120px;
+			
+			font-family: 'Open Sans';
+		  }
+		  th{
+            
+            text-align: center;
+			background-color: #7767e4;
+			color: white;
+			font-family: 'Open Sans';
+			font-size: 18px;
+			position: sticky;
+            width: 100px;
+            left: 0;
+  z-index: 10;
+  
+}
+table tr th{
+	position: sticky;
+	top: 0;
+	z-index: 9;
+	
+  } 
+
+  .btn-group-sm>.btn, .btn-sm {
+    
+    margin: 0;
+  position: absolute;
+  top: 80%;
+  right: 37%;
+  width: 180px;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background-image: linear-gradient(to right, #474ab6 0% , #9271f6 100%);
+  font-family: 'Open Sans';
+  font-weight: bold;
+  
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.h4, h4 {
+    font-size: 1.8rem;
+color: #fff;
+padding-bottom: 35px;
+right: 37%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+	color: #fff;
+	padding-left: 15px;
+}
+
