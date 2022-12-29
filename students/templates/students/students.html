@@ -1,0 +1,79 @@
+{% extends 'students/main.html' %}
+{% load static %}
+
+{% block content %}
+
+<hr>
+<form method="get" id = "st">
+
+	{{myFilter.form}}
+
+<button class="btn btn-primary" id="df" type="submit">
+	Search</button>	
+
+</form>
+
+
+	<div class="table table-sm">
+		<div class="col-md-12" >
+		<h4></h4>
+		<hr>
+		<div class="card">
+			
+			<table class="table" id="space" style="width:100%">
+				
+				<link rel="stylesheet" type="text/css" href="{% static '/css/main.css' %}">
+				
+				<tr>
+					<th>Companies</th>
+					<th>First_name</th>
+					<th>Last_name</th>
+					<th>Title</th>	
+					<th>Email</th>
+					<th>URL
+				</tr>
+
+					{% for i in students %}
+					
+					<tr>
+					<td>{{i.companies}} </td>
+					<td>{{i.first_name}} </td>
+					<td>{{i.last_name}} </td>
+					<td>{{i.Title}} </td>
+					<td>{{i.email}} </td>
+					<td>{{i.url}} </td>
+					
+
+					
+					</tr>
+					{% endfor %}
+	
+
+			</table>
+		</div>
+	</div>
+
+
+
+{% include 'students/creation.html' %}
+
+{% endblock %}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+	
+	
